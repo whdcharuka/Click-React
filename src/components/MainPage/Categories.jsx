@@ -6,57 +6,52 @@ const Categories = () => {
     {
       cateImg: "./images/category/dress.png",
       cateName: "Fashion",
-      path:"fashion",
+      path:"Fashion",
     },
     {
       cateImg: "./images/category/smartphone.png",
       cateName: "Electronic",
-      path:"ele",
-    },
-    {
-      cateImg: "./images/category/car.png",
-      cateName: "Cars",
-      path:"car",
+      path:"Electronic",
     },
     {
       cateImg: "./images/category/house.png",
       cateName: "Home & Garden",
-      path:"home",
+      path:"Home",
     },
     {
       cateImg: "./images/category/giftbox.png",
       cateName: "Gifts",
-      path:"gift",
+      path:"Gift",
     },
     {
       cateImg: "./images/category/guitar.png",
       cateName: "Music",
-      path:"music",
+      path:"Music",
     },
     {
       cateImg: "./images/category/cosmetics.png",
       cateName: "Health & Beauty",
-      path:"health",
+      path:"Health",
     },
     {
       cateImg: "./images/category/cat.png",
       cateName: "Pets",
-      path:"pet",
+      path:"Pet",
     },
     {
       cateImg: "./images/category/toys.png",
       cateName: "Baby Toys",
-      path:"baby",
+      path:"Baby",
     },
     {
       cateImg: "./images/category/essential-oil.png",
       cateName: "Groceries",
-      path:"gro",
+      path:"Grocery",
     },
     {
       cateImg: "./images/category/education.png",
       cateName: "Books",
-      path:"book",
+      path:"Book",
     },
   ]
 
@@ -65,12 +60,15 @@ const Categories = () => {
       <div className='category'>
         {data.map((value, index) => {
           return (
+            <Link className='abc' to={value.path}>
             <div className='box f_flex' key={index}>
-              <Link to={value.path}>
+              
               <img src={value.cateImg} alt='' />
               <span>{value.cateName}</span>
-              </Link>
+              
+              
             </div>
+            </Link>
           )
         })}
       </div>
@@ -79,3 +77,7 @@ const Categories = () => {
 }
 
 export default Categories
+
+
+
+
