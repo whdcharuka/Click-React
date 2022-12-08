@@ -10,6 +10,17 @@ import Sdata from "./components/shops/Sdata"
 import User from "./pages/User"
 import Contact from "./pages/Contact"
 
+import Fashion from "./pages/Fashion"
+import Electronic from "./pages/Electronic"
+import Home from "./pages/Home"
+import Gift from "./pages/Gift"
+import Music from "./pages/Music"
+import Health from "./pages/Health"
+import Pet from "./pages/Pet"
+import Baby from "./pages/Baby"
+import Grocery from "./pages/Grocery"
+import Book from "./pages/Book"
+
 function App() {
 
   const { productItems } = Data
@@ -46,6 +57,37 @@ function App() {
       <Router>
         <Header CartItem={CartItem} />
         <Switch>
+          <Route path='/Fashion' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Electronic' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Home' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Gift' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Music' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Health' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Pet' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Baby' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Grocery' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+          <Route path='/Book' exact>
+            <Fashion productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+          </Route>
+
           <Route path='/' exact>
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
