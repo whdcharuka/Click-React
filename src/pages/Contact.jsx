@@ -22,7 +22,7 @@ export default function Form() {
                   <span className='emailus'>
                     9am - 6pm on weekdays<br></br>
                     8am - 5pm on weekends<br></br><br></br>
-                    symphony@gmail.com<br></br><br></br>
+                    click@gmail.com<br></br><br></br>
                     +94 2256 5987<br></br><br></br>
                     SLT mobitel, Lotus rd, <br></br>Colombo 1.
                   </span>
