@@ -145,6 +145,11 @@ button {
   font-weight: 400;
   font-size: 17px;
 }
+.product img {
+  width: 275px;
+  height: 275px;
+}
+
 .product .rate i {
   font-size: 15px;
   color: #ffcd4e;
