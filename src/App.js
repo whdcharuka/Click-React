@@ -24,6 +24,17 @@ import Book from "./pages/Book"
 function App() {
 
   const { productItems } = Data
+  const { fashionItems } = Data
+  const { eleItems } = Data
+  const { homeItems } = Data
+  const { giftItems } = Data
+  const { musicItems } = Data
+  const { healthItems } = Data
+  const { petItems } = Data
+  const { babyItems } = Data
+  const { groItems } = Data
+  const { bookItems } = Data
+
   const { shopItems } = Sdata
 
   const [CartItem, setCartItem] = useState([])
