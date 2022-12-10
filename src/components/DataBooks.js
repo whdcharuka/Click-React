@@ -1,0 +1,75 @@
+const Data = {
+  bookItems: [
+    {
+      id: 1,
+      discount: 50,
+      cover: "./images/books/1.jpg",
+      name: "Shoes",
+      price: 100,
+    },
+    {
+      id: 2,
+      discount: 40,
+      cover: "./images/book/2.jpg",
+      name: "Watch",
+      price: 20,
+    },
+    {
+      id: 3,
+      discount: 40,
+      cover: "./images/book/3.jpg",
+      name: "Smart Mobile Black",
+      price: 200,
+    },
+    {
+      id: 4,
+      discount: 40,
+      cover: "./images/book/4.jpg",
+      name: "Smart Watch Black",
+      price: 50,
+    },
+    {
+      id: 5,
+      discount: 50,
+      cover: "./images/book/5.jpg",
+      name: "Shoes",
+      price: 100,
+    },
+    {
+      id: 6,
+      discount: 50,
+      cover: "./images/book/book-6.jpg",
+      name: "Shoes",
+      price: 100,
+    },
+    {
+      id: 7,
+      discount: 40,
+      cover: "./images/book/7.jpg",
+      name: "Smart Mobile Black",
+      price: 200,
+    },
+    {
+      id: 8,
+      discount: 40,
+      cover: "./images/book/8.jpg",
+      name: "Smart Watch Black",
+      price: 50,
+    },
+    {
+      id: 9,
+      discount: 50,
+      cover: "./images/book/9.jpg",
+      name: "Shoes",
+      price: 100,
+    },
+    {
+      id: 10,
+      discount: 50,
+      cover: "./images/book/10.jpg",
+      name: "Shoes",
+      price: 100,
+    },
+  ],
+}
+export default Data
