@@ -21,15 +21,15 @@ const Navbar = () => {
               <li>
                 <Link to='/'>home</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to='/pages'>pages</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to='/user'>user account</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to='/vendor'>vendor account</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to='/track'>track my order</Link>
               </li>
