@@ -9,6 +9,11 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import User from "./pages/User"
 import Contact from "./pages/Contact"
+import Care from "./pages/Care"
+import Career from "./pages/Career"
+import Store from "./pages/Store"
+import Privacy from "./pages/Privacy"
+import Terms from "./pages/Terms"
 
 import Fashion from "./pages/Fashion"
 import Electronic from "./pages/Electronic"
@@ -109,6 +114,11 @@ function App() {
         <Switch>
           <Route path='/User' exact component={User} />
           <Route path='/Contact' exact component={Contact} />
+          <Route path='/Care' exact component={Care} />
+          <Route path='/Career' exact component={Career} />
+          <Route path='/Privacy' exact component={Privacy} />
+          <Route path='/Store' exact component={Store} />
+          <Route path='/Terms' exact component={Terms} />
         </Switch>
         <Footer />
       </Router>
