@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
             <div className='icon d_flex'>
               <div className='img d_flex'>
                 <i class='fa-brands fa-google-play'></i>
-                <span>Google Play</span>
+                <Link href="https://play.google.com/store/games"><span>Google Play</span></Link>
               </div>
               <div className='img d_flex'>
                 <i class='fa-brands fa-app-store-ios'></i>
@@ -24,11 +25,11 @@ const Footer = () => {
           <div className='box'>
             <h2>About Us</h2>
             <ul>
-              <li>Careers</li>
-              <li>Our Stores</li>
-              <li>Our Cares</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy Policy</li>
+              <Link to="./Career"><li>Careers</li></Link>
+              <Link to="./Store"><li>Our Stores</li></Link>
+              <Link to="./Care"><li>Our Cares</li></Link>
+              <Link to="./Terms"><li>Terms & Conditions</li></Link>
+              <Link to="./Privacy"><li>Privacy Policy</li></Link>
             </ul>
           </div>
           <div className='box'>
